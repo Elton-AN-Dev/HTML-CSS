@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+    body {
+
+           background-color: aqua;
+           font-family: Arial, Helvetica, sans-serif;
+  
+         }
+
+h2 {
+
+  color: rgb(128, 1, 255);
+}
+
+h1 {
+
+  color: brown;
+}
+#principal {
+
+  text-align: center;
+  color: rgb(146, 127, 255);
+
+  /* tudo que em html é id, em css será #
+     tudo que em html é class, em css é ponto ( . )
+  */
+
+}
+
+.basico {
+           color: blue;
+
+}
+
+.intermediario {
+
+             color: bisque;
+}
+
+.avançado {
+
+                color: brown;
+}
+
+.mudança {
+
+     background-color: brown;
+}
