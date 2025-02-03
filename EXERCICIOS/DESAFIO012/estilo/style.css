@@ -3,6 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+:root {
+
+           --fonte01: verdana, Geneva, tahoma, sans-serif;
+           --fonte02: "Permanent Marker", serif;
+
+
+}
+
 * {
         margin: 0px;
         padding: 0px;
@@ -10,7 +18,7 @@
 }
 
 html, body {
-        
+        font-family: var(--fonte01);
         min-height: 100vh;
         background-color: darkkhaki;
 
@@ -56,6 +64,7 @@ section {
         padding-bottom: 10vh;
         line-height: 2em;
         padding-left: 30px;
+        font-family: var(--fonte02);
 
 }
 
