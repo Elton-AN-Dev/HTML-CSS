@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+
+    <style>
+
+td {
+
+    border: 1px solid black ;
+    padding: 12px;
+}
+
+table {
+
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+td.mudar_red {
+
+       background-color: rgba(255, 0, 0, 0.34);
+
+}
+
+tr.linha_02_azul {
+
+background-color: blue;
+
+}
+
+
+
+
+    </style>
 </head>
 <body>
     <h1>Minha Primeira tabela</h1>
     <!--  
         HIERARQUIA DE TABELAS (simples) 
         TABLE = tabela
-          TABLE ROW = linha de tabela
+          TABLE ROW = linha de tabela   tr
              TABLE HEADER = cabeçalho de tabela
              TABLE DATA = dado de tabela 
     -->
@@ -23,10 +55,22 @@
             <td>C1</td>
         </tr> <!--traduzindo:Tenho uma tabela com uma linha com A1,B1 E C1-->
 
+        <tr class="linha_02_azul">
+            <td>A2</td> 
+            <td>B2
+            <td>C2        
+        </tr>
+
         <tr>
-            <td></td>           
+            <td>A3</td>
+            <td class="mudar_red">B3</td>
+            <td>C3</td>          
+        </tr>
 
-
+        <tr>
+            <td>A4 
+            <td>B4</td>  
+            <td>C4</td>        
         </tr>
 
 
